@@ -14,7 +14,7 @@ gdjs.Pagina_9508Code.GDreloadObjects1= [];
 gdjs.Pagina_9508Code.GDreloadObjects2= [];
 
 
-gdjs.Pagina_9508Code.asyncCallback13306652 = function (runtimeScene, asyncObjectsList) {
+gdjs.Pagina_9508Code.asyncCallback15234628 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Pagina_9508Code.localVariables);
 {gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Pagina_09", false);
@@ -29,14 +29,14 @@ gdjs.Pagina_9508Code.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Pagina_9508Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_9508Code.asyncCallback13306652(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_9508Code.asyncCallback15234628(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Pagina_9508Code.asyncCallback13308372 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Pagina_9508Code.asyncCallback15237148 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Pagina_9508Code.localVariables);
 {gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Pagina_07", false);
@@ -51,7 +51,7 @@ gdjs.Pagina_9508Code.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Pagina_9508Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_9508Code.asyncCallback13308372(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Pagina_9508Code.asyncCallback15237148(runtimeScene, asyncObjectsList)));
 }
 }
 
